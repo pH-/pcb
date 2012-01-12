@@ -1,0 +1,12 @@
+<Context>
+
+ <Resource name="jdbc/hospitalCheckin" 
+              auth="Container"
+              type="javax.sql.DataSource" 
+              username="pH" 
+              password="pH"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/hospitalCheckin"
+              maxActive="15" 
+              maxIdle="3"/>
+</Context>
